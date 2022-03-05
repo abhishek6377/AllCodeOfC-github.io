@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+// while loop one time is execute...
+int i;
+clrscr();
+printf("Enter the value\n");
+scanf("%d",&i);
+do{
+printf("%d\n",i);
+i++;
+}while(i<10);
+getch();
+}

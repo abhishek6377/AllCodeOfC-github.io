@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int i=1,f=1,n=7;
+clrscr();
+while(i<=n){
+f*=i;
+i++;
+}
+printf("%d  and %d ",n,f);
+getch();
+}

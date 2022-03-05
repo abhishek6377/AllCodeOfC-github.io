@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i=8;
+int *j=&i;
+clrscr();
+printf("The value of i is %d\n",i);
+printf("The address of i is %u\n",&i);
+printf("The value of j is %u\n",i);
+printf("The address of j is %u\n",&j);
+
+getch();
+
+}

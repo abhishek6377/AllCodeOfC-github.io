@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float num1;
+char op;
+float num2;
+float result;
+clrscr();
+printf("Enter a number\n");
+scanf("%f",&num1);
+printf("Enter a operator\n");
+scanf("%f",&op);
+printf("Enter a number\n");
+scanf("%f",&num2);
+switch(op)
+{
+case'+':
+result=num1+num2;
+printf("%f",result);
+break;
+case'-':
+result=num1-num2;
+printf("%f",result);
+break;
+case'*':
+result=num1*num2;
+printf("%f",result);
+break;
+case'/':
+result=num1/num2;
+printf("%f",result);
+break;
+default:
+printf("Invalid operator");
+}
+getch();
+}
